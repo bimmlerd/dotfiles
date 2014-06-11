@@ -560,13 +560,8 @@ fi;
 defaults write com.apple.terminal FocusFollowsMouse -bool true
 #defaults write org.x.X11 wm_ffm -bool true
 
-<<<<<<< HEAD
-# Install pretty iTerm colors
-#open "${HOME}/init/Mathias.itermcolors"
-=======
 # Install the Solarized Dark theme for iTerm
 open "${HOME}/init/Solarized Dark.itermcolors"
->>>>>>> f44b1c50f696d019ad4be5d3f3cf81d4964e9bb1
 
 # Don’t display the annoying prompt when quitting iTerm
 #defaults write com.googlecode.iterm2 PromptOnQuit -bool false
