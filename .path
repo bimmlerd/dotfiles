@@ -1,0 +1,8 @@
+# Use the more up to date coreutils
+PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
+# Add texbin to PATH
+PATH="$PATH:/usr/texbin"
+
+# Prepend /usr/local/bin so that homebrew doesn't complain
+export PATH="/usr/local/bin:$PATH"

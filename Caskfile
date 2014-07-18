@@ -10,7 +10,7 @@ cask install google-chrome 2> /dev/null
 #cask install imagealpha 2> /dev/null
 #cask install imageoptim 2> /dev/null
 #cask install iterm2 2> /dev/null
-cask install macvim 2> /dev/null
+#cask install macvim 2> /dev/null
 #cask install miro-video-converter 2> /dev/null
 #cask install opera 2> /dev/null
 #cask install opera-developer 2> /dev/null
@@ -22,3 +22,4 @@ cask install transmission 2> /dev/null
 #cask install ukelele 2> /dev/null
 #cask install virtualbox 2> /dev/null
 cask install vlc 2> /dev/null
+cask install alfred 2> /dev/null
