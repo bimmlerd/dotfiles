@@ -60,7 +60,5 @@ install rename
 
 #install homebrew/versions/lua52
 
-install caskroom/cask/brew-cask
-
 # Remove outdated versions from the cellar
 cleanup
