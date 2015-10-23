@@ -1,0 +1,15 @@
+launchctl setenv LC_ALL 'en_US.UTF-8'
+launchctl setenv LANG 'en_US.UTF-8'
+launchctl setenv MM_CHARSET 'UTF-8'
+
+# Wechall tokens for over the wire etc
+export WECHALLUSER="dancer"
+export WECHALLTOKEN="895B1-F880B-22847-8B005-C26B6-1B5D7"
+
+# theos for iOS dev
+export THEOS=/opt/theos
+export THEOS_DEVICE_IP=Davids-iPhone.local THEOS_DEVICE_PORT=22
+
+# nvm node version manager
+export NVM_DIR=~/.nvm
+source /usr/local/opt/nvm/nvm.sh

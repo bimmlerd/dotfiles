@@ -1,5 +1,8 @@
-# Make nano the default editor
-export EDITOR="nano"
+# Make Sublime the default editor
+export EDITOR="subl"
+
+# z3 theorem solver
+export PYTHONPATH=$PYTHONPATH:/usr/local/z3-4.4.0/bin
 
 # Larger bash history (allow 32³ entries; default is 500)
 export HISTSIZE=32768;

@@ -1,8 +1,21 @@
-# Use the more up to date coreutils
-PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+# php56 to the front
+export PATH="/usr/local/opt/php56/bin:$PATH"
+
+# add subl to the path
+export PATH="$PATH:/Applications/Sublime Text.app/Contents/SharedSupport/bin"
+
+# Add cabal-installed packages to PATH
+PATH="$PATH:/Users/david/.cabal/bin"
 
 # Add texbin to PATH
 PATH="$PATH:/usr/texbin"
 
-# Prepend /usr/local/bin so that homebrew doesn't complain
+# Add gems to the PATH
+PATH="$PATH:/usr/local/Cellar/ruby/2.1.1_1/bin"
+
+# Add jsc to PATH
+PATH="$PATH:/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/Resources"
+
+# Prepend /usr/local/{s}bin so that homebrew doesn't complain
+export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/bin:$PATH"
